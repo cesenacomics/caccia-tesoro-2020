@@ -94,7 +94,7 @@ p {
     font-weight: 600;
 }
 
-  footer {
+footer {
     text-align: center;
 }
 
@@ -173,9 +173,6 @@ p {
     background: #003977;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-}
-.btn:hover {
-    background: #a09486;
 }
 
 @-webkit-keyframes NO {
