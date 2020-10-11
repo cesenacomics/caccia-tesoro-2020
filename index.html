@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Giulia Renda">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caccia al tesoro CCS 2020</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://kit.fontawesome.com/93e53467be.js" crossorigin="anonymous"></script>
+</head>
+<body id="start-form">
+
+<div class="main-nav">
+    <p type="button" id="aiuto-btn" data-toggle="modal" data-target="#aiutoModal"><i class="fas fa-info"></i></p>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="aiutoModal" tabindex="-1" aria-labelledby="aiutoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="aiutoModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Se ti trovi qui per caso e hai voglia di sapere di cosa si tratta clicca qui: <a href="">www.blablabla.it</a></p>
+                <p>Per problemi tecnici contattare: 00000 88888 22222</p>
+                <a href="">Sito Barbablù</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end Modal -->
+    <div class="user">
+        <header class="user__header">
+            <h1 class="user__title">SCOPRI COSA TI ASPETTA!</h1>
+        </header>
+
+        <form class="form" method="get" onsubmit="myFunction()">
+            <div class="form__group">
+                <input type="text" placeholder="colore" class="form__input" id="color" required/>
+            </div>
+
+            <div class="form__group">
+                <input type="password" placeholder="password" class="form__input" id="pwd" required/>
+            </div>
+
+            <button class="btn" type="submit">VAI</button>
+        </form>
+    </div>
+<footer id="form-footer">&#169; Cesena Comics & Stories</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
