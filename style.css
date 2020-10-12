@@ -273,3 +273,10 @@ footer {
     left: 2%;
     font-size: x-small;
 }
+
+/* MODAL */
+
+.modal-header {
+    border-bottom: none;
+    padding: 1rem 1rem 0 0;
+}
