@@ -31,6 +31,12 @@ body {
     font-size: 1.333em;
     font-weight: 700;
     text-transform: uppercase;
+    color: #003977;
+}
+
+#logo-ccs {
+    height: 30px;
+    margin: 1vh auto 1vh 2vw;
 }
 
 /* TEXT */
@@ -173,6 +179,7 @@ footer {
     background: #003977;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    border-radius: 0;
 }
 
 @-webkit-keyframes NO {
