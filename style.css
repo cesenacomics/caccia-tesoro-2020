@@ -65,7 +65,7 @@ h5 {
 }
 
 h6 {
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 p {
@@ -83,7 +83,7 @@ p {
     display: block;
     padding: 20px;
     align-content: center;
-    text-align: center;
+    text-align: left;
 }
 
 .box > img {
@@ -296,6 +296,11 @@ a {
 
 hr {
     border-top: 1px solid #003977;
+}
+
+#story-hr {
+    width: 90%;
+    margin-top: 30px;
 }
 
 .close {
