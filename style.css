@@ -81,9 +81,10 @@ p {
 /* WRAPPER */
 .wrapper {
     display: block;
-    padding: 5%;
+    padding: 3% 5%;
     align-content: center;
     text-align: left;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .box > img {
@@ -97,7 +98,7 @@ p {
 
 #enigma-7 {
     text-align: left;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
     font-weight: 600;
 }
 
@@ -277,7 +278,7 @@ footer {
 }
 
 #story-footer {
-    padding-bottom: 3%;
+    padding-bottom: 2.5%;
 }
 
 /* MODAL */
