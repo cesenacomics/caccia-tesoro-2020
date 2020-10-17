@@ -28,7 +28,7 @@ body {
 
 #aiuto-btn {
     margin: 1vh 2vw 1vh auto;
-    font-size: 1.333em;
+    font-size: 1.333rem;
     font-weight: 700;
     text-transform: uppercase;
     color: #f05a21;
@@ -47,29 +47,29 @@ body {
 }
 
 header {
-    margin: 50px 0 50px 0;
+    margin: 50px 0 30px 0;
     font-family: 'Montserrat', sans-serif;
 }
 
 h1{
-    font-size: 2.5em;
+    font-size: 2.4rem;
     font-weight: 700;
 }
 
 h4 {
-    font-size: 2em;
+    font-size: 1.8rem;
 }
 
 h5 {
-    font-size: 1.75em;
+    font-size: 1.6rem;
 }
 
 h6 {
-    font-size: 1.4em;
+    font-size: 1.2rem;
 }
 
 p {
-    font-size: 1.167em;
+    font-size: 1rem;
 }
 
 #next-pw {
@@ -81,7 +81,7 @@ p {
 /* WRAPPER */
 .wrapper {
     display: block;
-    padding: 20px;
+    padding: 5%;
     align-content: center;
     text-align: left;
 }
@@ -97,7 +97,7 @@ p {
 
 #enigma-7 {
     text-align: left;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
@@ -276,11 +276,8 @@ footer {
     }
 }
 
-#form-footer {
-    position: absolute;
-    bottom: 2%;
-    left: 2%;
-    font-size: x-small;
+#story-footer {
+    padding-bottom: 3%;
 }
 
 /* MODAL */
