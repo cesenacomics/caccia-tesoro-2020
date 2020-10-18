@@ -22,9 +22,7 @@ function myFunction() {
         window.open("parte09.html");
     } else if (color === 'rosa' && psw === 'avventura') {
         window.open("parte10.html");
-    } else if (color === 'bianco' && psw === 'natura') {
-        window.open("parte01.html");
-    } else {
+    }  else {
         alert('Colore o password sbagliati, riprova.')
     }
 }
